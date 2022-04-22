@@ -175,17 +175,17 @@
 #define y11_12_set_on      mcp2.digitalWrite(y11_12_set, 1)
 #define y11_12_set_off     mcp2.digitalWrite(y11_12_set, 0)
 
-#define x3_reset_A_on      mcp1.digitalWrite(x3_reset_A, 1)
-#define x3_reset_A_off     mcp1.digitalWrite(x3_reset_A, 0)
+#define x3_reset_A_on      mcp2.digitalWrite(x3_reset_A, 1)
+#define x3_reset_A_off     mcp2.digitalWrite(x3_reset_A, 0)
 
-#define x3_set_A_on        mcp1.digitalWrite(x3_set_A, 1)
-#define x3_set_A_off       mcp1.digitalWrite(x3_set_A, 0)
+#define x3_set_A_on        mcp2.digitalWrite(x3_set_A, 1)
+#define x3_set_A_off       mcp2.digitalWrite(x3_set_A, 0)
 
-#define x3_reset_B_on      mcp1.digitalWrite(x3_reset_B, 1)
-#define x3_reset_B_off     mcp1.digitalWrite(x3_reset_B, 0)
+#define x3_reset_B_on      mcp2.digitalWrite(x3_reset_B, 1)
+#define x3_reset_B_off     mcp2.digitalWrite(x3_reset_B, 0)
 
-#define x3_set_B_on        mcp1.digitalWrite(x3_set_B, 1)
-#define x3_set_B_off       mcp1.digitalWrite(x3_set_B, 0)
+#define x3_set_B_on        mcp2.digitalWrite(x3_set_B, 1)
+#define x3_set_B_off       mcp2.digitalWrite(x3_set_B, 0)
 
 #define y13_14_reset_on    mcp2.digitalWrite(y13_14_reset, 1)
 #define y13_14_reset_off   mcp2.digitalWrite(y13_14_reset, 0)
